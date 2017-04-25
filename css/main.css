@@ -1,0 +1,300 @@
+/* line 1, ../sass/main.scss */
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/main.scss */
+header .logo {
+  text-align: center;
+  color: #777777;
+  padding-top: 25px;
+}
+/* line 11, ../sass/main.scss */
+header .logo h1 {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: -18px;
+}
+/* line 15, ../sass/main.scss */
+header .logo h1 span {
+  font-size: 60px;
+}
+/* line 20, ../sass/main.scss */
+header .logo h2 {
+  font-size: 18px;
+  font-family: 'Poiret One';
+}
+/* line 25, ../sass/main.scss */
+header .menu {
+  text-align: center;
+}
+/* line 27, ../sass/main.scss */
+header .menu .nav {
+  list-style: none;
+  font-size: 17px;
+  display: inline-flex;
+}
+/* line 31, ../sass/main.scss */
+header .menu .nav li {
+  padding-right: 50px;
+}
+/* line 33, ../sass/main.scss */
+header .menu .nav li a {
+  display: block;
+  text-decoration: none;
+  color: #3c3c3c;
+}
+/* line 38, ../sass/main.scss */
+header .menu .nav li a:hover {
+  color: black;
+}
+/* line 41, ../sass/main.scss */
+header .menu .nav li ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+  padding-top: 10px;
+  z-index: 10;
+}
+/* line 51, ../sass/main.scss */
+header .menu .nav li:hover > ul {
+  display: block;
+  background: #fff;
+  text-align: start;
+  margin-left: -15px;
+  /* padding-left: 50px;*/
+  box-shadow: 0px 1px 1px 0px;
+  border-radius: 5px;
+  border-top: 0;
+}
+/* line 62, ../sass/main.scss */
+header .menu .na {
+  margin-left: -50px;
+  padding-left: 20px;
+  padding-top: 5px;
+  text-align: start;
+}
+/* line 68, ../sass/main.scss */
+header .menu .na:hover {
+  background-color: #eeeeee;
+}
+
+/* line 74, ../sass/main.scss */
+.container {
+  display: flex;
+  /*width: 1000px;*/
+  flex-direction: row;
+  height: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 200px;
+}
+
+@media (max-width: 1025px) {
+  /* line 84, ../sass/main.scss */
+  .container {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 569px) {
+  /* line 89, ../sass/main.scss */
+  .container {
+    padding: 0 50px;
+  }
+}
+/* line 93, ../sass/main.scss */
+.elem {
+  height: 225px;
+  width: 225px;
+  margin: 5px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+/* line 102, ../sass/main.scss */
+.elem p {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  right: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+/* line 112, ../sass/main.scss */
+.elem .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 124, ../sass/main.scss */
+.el1 {
+  background-image: url(../img/1.png);
+}
+
+/* line 127, ../sass/main.scss */
+.el2 {
+  background-image: url(../img/2.png);
+}
+
+/* line 130, ../sass/main.scss */
+.el3 {
+  background-image: url(../img/3.png);
+}
+
+/* line 133, ../sass/main.scss */
+.el4 {
+  background-image: url(../img/4.png);
+}
+
+/* line 136, ../sass/main.scss */
+.el5 {
+  background-image: url(../img/5.png);
+}
+
+/* line 139, ../sass/main.scss */
+.el6 {
+  background-image: url(../img/6.png);
+}
+
+/* line 142, ../sass/main.scss */
+.el7 {
+  background-image: url(../img/7.png);
+}
+
+/* line 145, ../sass/main.scss */
+.el8 {
+  background-image: url(../img/8.png);
+}
+
+/* line 148, ../sass/main.scss */
+.el9 {
+  background-image: url(../img/9.png);
+}
+
+/* line 151, ../sass/main.scss */
+.el10 {
+  background-image: url(../img/10.png);
+}
+
+/* line 154, ../sass/main.scss */
+.el11 {
+  background-image: url(../img/11.png);
+}
+
+/* line 157, ../sass/main.scss */
+.el12 {
+  background-image: url(../img/12.png);
+}
+
+/* line 160, ../sass/main.scss */
+.el13 {
+  background-image: url(../img/13.png);
+}
+
+/* line 163, ../sass/main.scss */
+.el14 {
+  background-image: url(../img/14.png);
+}
+
+/* line 166, ../sass/main.scss */
+.el15 {
+  background-image: url(../img/15.png);
+}
+
+/* line 169, ../sass/main.scss */
+.el16 {
+  background-image: url(../img/16.png);
+}
+
+/* line 172, ../sass/main.scss */
+.el17 {
+  background-image: url(../img/17.png);
+}
+
+/* line 175, ../sass/main.scss */
+.el18 {
+  background-image: url(../img/18.png);
+}
+
+/* line 178, ../sass/main.scss */
+.el19 {
+  background-image: url(../img/19.png);
+}
+
+/* line 181, ../sass/main.scss */
+.el20 {
+  background-image: url(../img/20.png);
+}
+
+@media (max-width: 569px) {
+  /* line 185, ../sass/main.scss */
+  .elem {
+    height: 200px;
+    width: 200px;
+  }
+}
+/* line 191, ../sass/main.scss */
+.elem:hover p {
+  bottom: 0;
+}
+/* line 194, ../sass/main.scss */
+.elem:hover .overlay {
+  opacity: 1;
+}
+
+/* line 199, ../sass/main.scss */
+footer {
+  width: 100%;
+  height: 160px;
+  position: relative;
+  padding-top: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+/* line 211, ../sass/main.scss */
+footer .footer-logo {
+  color: grey;
+  margin: 0;
+  line-height: 0;
+}
+/* line 215, ../sass/main.scss */
+footer .footer-logo h2 {
+  font-size: 32px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  line-height: 8px;
+}
+/* line 221, ../sass/main.scss */
+footer .footer-logo h4 {
+  font-size: 14px;
+  text-align: center;
+}
+/* line 225, ../sass/main.scss */
+footer .footer-logo a {
+  color: grey;
+  padding-left: 45%;
+  font-size: 16px;
+  text-decoration: underline;
+}
+/* line 232, ../sass/main.scss */
+footer p {
+  color: grey;
+  font-size: 16px;
+  margin: 25px;
+  text-align: center;
+}
